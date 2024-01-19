@@ -8,21 +8,22 @@ The following Gatling versions are currently available:
 
 * [3.8.4-alpine](./3.8.4-alpine/Dockerfile)
 * [3.9.5-alpine](./3.9.5-alpine/Dockerfile)
+* [3.10.3-alpine](./3.10.3-alpine/Dockerfile)
 
 ## Usage
 
 ## Building Images:
 
-Run the following command to build an image (e.g., `cd 3.9.5-alpine`):
+Run the following command to build an image (e.g., `cd 3.10.3-alpine`):
 
 ```bash
-docker build -t eccanto/gatling:3.9.5-alpine 3.9.5-alpine
+docker build -t eccanto/gatling:3.10.3-alpine 3.10.3-alpine
 ```
 
 To publish the image:
 
 ```bash
-docker push eccanto/gatling:3.9.5-alpine
+docker push eccanto/gatling:3.10.3-alpine
 ```
 
 ## Running Gatling:
